@@ -2,4 +2,91 @@
   box-sizing: border-box;
   margin: 0; 
   padding: 0;
+  font-family: 'Open Sans', arial;
+  text-align: center;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+  padding: 11px;
+  margin-bottom: 5px;
+  font-weight: 800;
+  color: darkgray;
+  border-bottom: darkgrey 2px solid;
+}
+.bottom-li {
+  margin-bottom: 26px;
+}
+li a:visited {
+  color: black;
+}
+li a:hover {
+  color: green;
+}
+
+body {
+  padding: 10%;
+}
+ h1, h2 {
+   margin: 20px;
+ }
+ h2 {
+   text-transform: uppercase;
+   font-weight: 800;
+   font-size: 19px;
+   padding: 4px;
+ }
+ .title {
+   font-size: 36px;
+ }
+ .bio {
+   rgb {89, 88, 88};
+   margin-top: 14px;
+   font-size: 16px;
+ }
+ .pro-pic {
+   padding-top: 32px;
+   max-width: 80%;
+ }
+ .port-container {
+   padding-top: 10%;
+   padding-bottom: 10%;
+ }
+ #portfolio {
+   padding: 14px;
+   border-bottom: darkgrey 1px solid;
+ }
+ .pic-p {
+  margin-bottom: 17px;
+}
+#contact {
+  padding:5%;
+  margin-top: 10px;
+}
+footer {
+  padding-top: 24px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 32px;
+  border-bottom: lightgray solid 2px;
+}
+footer  a:visited {
+  color:blue;
+}
+#contact a:visited {
+  color:black
+}
+.contact-info {
+  font-weight: 700;
+}
+.top {
+  margin: 16px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
 }
