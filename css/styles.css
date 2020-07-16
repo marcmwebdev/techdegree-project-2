@@ -17,7 +17,7 @@ li {
   margin-bottom: 5px;
   font-weight: 800;
   color: darkgray;
-  border-bottom: darkgrey 2px solid;
+  
 }
 .bottom-li {
   margin-bottom: 26px;
@@ -45,7 +45,6 @@ body {
    font-size: 36px;
  }
  .bio {
-   rgb {89, 88, 88};
    margin-top: 14px;
    font-size: 16px;
  }
@@ -90,3 +89,75 @@ footer  a:visited {
   font-size: 14px;
   font-weight: 400;
 }
+#nav-bottom {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+  h1 {
+    margin-bottom: 50px;
+  }
+
+ #nav-ul{
+  width: 350px;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+li {
+  font-size: 18px;
+  margin-right: 40px;
+}
+.sec-1 {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 98%;
+
+}
+.pro-pic {
+  padding-top: 12px;
+  width: 75%;
+ 
+}
+
+.bio{
+  text-align: center;
+  font-size: 1.15em;
+}
+.proj {
+  float: left;
+  width: 43%;
+  margin: auto;
+}
+.proj img {
+  max-width: 101%;
+}
+.proj:nth-child(even) {
+  margin: 0 4.6%;
+}
+#contact { 
+  clear: both;
+}
+.top {
+  font-size: 18px;
+}
+.port-text {
+  padding: 0 20px; 
+}
+.bottom-name {
+  margin-right: 90%;
+  font-weight: 800;
+  font-size: 17px;
+}
+#nav-bottom {
+display: flex;
+margin-left: 46%;
+margin-top: -32px;
+text-decoration: none;
+}
+
+}
+
