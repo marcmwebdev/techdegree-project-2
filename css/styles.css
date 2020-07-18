@@ -4,8 +4,8 @@
   padding: 0;
   font-family: 'Open Sans', arial;
   text-align: center;
-  
 }
+
 
 img {
   max-width: 100%;
@@ -92,6 +92,16 @@ footer  a:visited {
 }
 #nav-bottom {
   display: none;
+}
+
+nav a {
+  background-color: darkgrey;
+  border-radius: 4px;
+}
+
+#nav-bottom a {
+  background-color: darkgrey;
+  border-radius: 4px;
 }
                             /* 768 */
 
