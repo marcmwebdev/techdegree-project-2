@@ -56,6 +56,7 @@ body {
    padding-top: 10%;
    padding-bottom: 10%;
  }
+  
  #portfolio {
    padding: 14px;
    border-bottom: darkgrey 1px solid;
@@ -92,19 +93,19 @@ footer  a:visited {
 #nav-bottom {
   display: none;
 }
+                            /* 768 */
 
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
 
   h1 {
     margin-bottom: 50px;
   }
 
- #nav-ul{
-  width: 350px;
-  display: flex;
-  margin: auto;
-  width: 50%;
-  margin-bottom: 30px;
+ #nav-ul {
+ display: flex;
+ margin: auto;
+width: 50%;
+
 }
 
 li {
@@ -148,6 +149,7 @@ li {
   padding: 0 20px; 
 }
 .bottom-name {
+  margin-top: 2%;
   margin-right: 90%;
   font-weight: 800;
   font-size: 17px;
@@ -163,44 +165,50 @@ text-decoration: none;
 
 @media (min-width: 1024px) {
 
-    header {
-      display: flex;
-      justify-content: space-between;
-    }
+  header {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  li {
+    text-align: center;
+  }
 
-    h1 {
-      margin-top: -3px;
-    }
-    body {
-      
-    }
-    #nav-ul {
-      margin-left: 7%;
-    }
+  h1 {
+    margin-top: -3px;
+  }
 
-    .bio {
-      margin-top: 16px;
-      font-size: 1.2em;
-    }
-    #nav-bottom {
-      margin-left: 59%;
-    }
+  #nav-ul {
+    margin-left: 7%;
+  }
 
-    .proj {
-      width: 27%;
-      margin-right:;
-      
-     
-    }
-    .proj img {
-      max-width: 100%;
+  .bio {
+    margin-top: 16px;
+    font-size: 1.2em;
+  }
+  #nav-bottom {
+    margin-left: 59%;
+  }
 
-    }
- 
-    .proj:nth-child(even) {
-      margin: initial;
-    }
+  .proj {
+    max-width: 27%;
+    float: none;
+    display: inline-block; 
+    vertical-align: top;
+    margin: auto 20px;
+    clear: both;;
     
    
   }
+  .proj img {
+    max-width: 100%;
+    margin-right: 3%;
 
+  }
+  .proj:nth-child(even){
+    margin: initial;
+  }
+
+ 
+ 
+}
